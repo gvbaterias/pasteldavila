@@ -10,7 +10,7 @@ const PRODUCTS = [
     img: 'images/sabores/carne.jpg',
     nome: 'Carne',
     descricao: 'Carne moída temperada na massa crocante — o clássico que nunca decepciona',
-    preco: 15.00,
+    preco: 16.00,
     especial: false,
   },
   {
@@ -19,7 +19,7 @@ const PRODUCTS = [
     img: 'images/sabores/queijo.jpg',
     nome: 'Queijo',
     descricao: 'Mussarela derretida dentro de uma massa leve e sequinha',
-    preco: 15.00,
+    preco: 16.00,
     especial: false,
   },
   {
@@ -28,7 +28,7 @@ const PRODUCTS = [
     img: 'images/sabores/frango.jpg',
     nome: 'Frango',
     descricao: 'Frango desfiado e temperado no ponto certo',
-    preco: 15.00,
+    preco: 16.00,
     especial: false,
   },
   {
@@ -37,16 +37,18 @@ const PRODUCTS = [
     img: 'images/sabores/pizza.jpg',
     nome: 'Pizza',
     descricao: 'Presunto, mussarela e tomate — sabor de pizza em forma de pastel',
-    preco: 15.00,
+    preco: 16.00,
     especial: false,
   },
+
+  // ── DUPLOS ─────────────────────────────────────────────────
   {
     id: 5,
     categoria: 'salgados',
     img: 'images/sabores/frango-cat.jpg',
     nome: 'Frango com Catupiry',
     descricao: 'Frango desfiado com catupiry cremoso — combinação perfeita',
-    preco: 15.00,
+    preco: 17.50,
     especial: false,
   },
   {
@@ -55,7 +57,7 @@ const PRODUCTS = [
     img: 'images/sabores/frango-cheddar.jpg',
     nome: 'Frango com Cheddar',
     descricao: 'Frango desfiado com cheddar cremoso — combinação irresistível',
-    preco: 15.00,
+    preco: 17.50,
     especial: false,
   },
   {
@@ -64,7 +66,7 @@ const PRODUCTS = [
     img: 'images/sabores/frango-queijo.jpg',
     nome: 'Frango com Queijo',
     descricao: 'Frango desfiado com mussarela derretida no ponto certo',
-    preco: 15.00,
+    preco: 17.50,
     especial: false,
   },
   {
@@ -73,7 +75,7 @@ const PRODUCTS = [
     img: 'images/sabores/carne-queijo.jpg',
     nome: 'Carne com Queijo',
     descricao: 'Carne moída temperada com mussarela derretida — clássico duplo',
-    preco: 15.00,
+    preco: 17.50,
     especial: false,
   },
 
@@ -84,7 +86,7 @@ const PRODUCTS = [
     img: 'images/sabores/bacon-queijo.jpg',
     nome: 'Bacon com Queijo',
     descricao: 'Bacon crocante com queijo derretido — irresistível!',
-    preco: 18.00,
+    preco: 20.00,
     especial: true,
   },
   {
@@ -93,7 +95,7 @@ const PRODUCTS = [
     img: 'images/sabores/especial-casa.jpg',
     nome: 'Especial da Casa',
     descricao: 'Carne moída, queijo e bacon — o trio campeão da casa',
-    preco: 18.00,
+    preco: 20.00,
     especial: true,
   },
   {
@@ -102,7 +104,7 @@ const PRODUCTS = [
     img: 'images/sabores/especial-vila.jpg',
     nome: 'Especial da Vila',
     descricao: 'Frango desfiado, requeijão cremoso e tomate — leve e saboroso',
-    preco: 18.00,
+    preco: 20.00,
     especial: true,
   },
   {
@@ -111,7 +113,7 @@ const PRODUCTS = [
     img: 'images/sabores/bolonhesa.jpg',
     nome: 'Bolonhesa',
     descricao: 'Presunto, mussarela, carne moída e tomate — sabor italiano',
-    preco: 18.00,
+    preco: 20.00,
     especial: true,
   },
   {
@@ -120,7 +122,7 @@ const PRODUCTS = [
     img: 'images/sabores/carne-cream.jpg',
     nome: 'Carne com Cream Cheese',
     descricao: 'Carne moída temperada com cream cheese cremoso — combinação surpreendente',
-    preco: 18.00,
+    preco: 20.00,
     especial: true,
   },
   {
@@ -129,7 +131,7 @@ const PRODUCTS = [
     img: 'images/sabores/frango-cream.jpg',
     nome: 'Frango com Cream Cheese',
     descricao: 'Frango desfiado com cream cheese — leve, cremoso e irresistível',
-    preco: 18.00,
+    preco: 20,
     especial: true,
   },
 
@@ -140,7 +142,7 @@ const PRODUCTS = [
     img: 'images/sabores/chocolate.jpg',
     nome: 'Chocolate',
     descricao: 'Chocolate cremoso derretendo a cada mordida',
-    preco: 18.00,
+    preco: 20.00,
     especial: false,
   },
   {
@@ -149,7 +151,7 @@ const PRODUCTS = [
     img: 'images/sabores/doce-leite.jpg',
     nome: 'Doce de Leite',
     descricao: 'Doce de leite na medida certa — puro conforto',
-    preco: 18.00,
+    preco: 20.00,
     especial: false,
   },
   {
@@ -158,7 +160,7 @@ const PRODUCTS = [
     img: 'images/sabores/romeu-julieta.jpg',
     nome: 'Romeu e Julieta',
     descricao: 'Goiabada cremosa com queijo minas — o doce clássico brasileiro',
-    preco: 18.00,
+    preco: 20.00,
     especial: false,
   },
 ];
